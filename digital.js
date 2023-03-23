@@ -26,11 +26,13 @@ function changeto12(){
     
     if(hrs > 12){
         hrs = hrs - 12;
+        document.getElementById('hours').innerHTML = hrs;
     }
 }
 function changeto24(){
     
     if(hrs > 12){
         hrs = hrs + 12;
+        document.getElementById('hours').innerHTML = hrs;
     }
 }
